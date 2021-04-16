@@ -4,7 +4,7 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa"
 
 export const mainMenuItems = [
   {
-    path: "/index",
+    path: "/",
     title: "home",
   },
   {
