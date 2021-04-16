@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { mainMenuItems } from "../constants/links"
 import styled from "styled-components"
+import { useStaticQuery, Link, graphql } from "gatsby"
 
 const Navbar = ({ Logo }) => {
   const [isOpen, setNav] = useState(false)
@@ -27,7 +28,7 @@ const Navbar = ({ Logo }) => {
         {mainMenuItems.map((item, index) => {
           return (
             <li key={index}>
-              <a href="#">{item.text}</a>
+              <Link to={item.path}>{item.title}</Link>
             </li>
           )
         })}

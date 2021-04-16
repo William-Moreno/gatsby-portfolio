@@ -4,27 +4,19 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa"
 
 export const mainMenuItems = [
   {
-    path: "/",
+    path: "/index",
     title: "home",
   },
   {
-    path: "/about",
-    title: "about",
-  },
-  {
-    path: "/packages",
-    title: "packages",
-  },
-  {
-    path: "/contact",
-    title: "contact",
+    path: "/portfolio",
+    title: "portfolio",
   },
 ]
 
 export const socialMenuItems = [
   {
     icon: <FaLinkedin />,
-    url: "https://www.linkedin.com/in/morgan-baker-developer-inverness",
+    url: "https://www.linkedin.com/in/williamdmoreno/",
     name: "LinkedIn",
   },
   {
@@ -34,7 +26,7 @@ export const socialMenuItems = [
   },
   {
     icon: <DiGithubBadge />,
-    url: "https://github.com/bagseye",
+    url: "https://github.com/William-Moreno",
     name: "GitHub",
   },
 ]

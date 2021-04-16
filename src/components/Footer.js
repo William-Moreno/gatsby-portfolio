@@ -37,15 +37,13 @@ const Footer = ({ Logo }) => {
               </Link>
             )}
             <address>
-              85 Simone Weil Avenue
+              Greater Seattle Area
               <br />
-              Watton-at-Stone
-              <br />
-              SG14 8BL
+              Washington
             </address>
-            <a className="telephone" href="tel:+004407076009211">
+            {/* <a className="telephone" href="tel:+004407076009211">
               07076 009 211
-            </a>
+            </a> */}
           </div>
         ) : null}
 
